@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# Hackingly Profile Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the second round of the full-stack developer interview for Hackingly! This project showcases a profile page for Hackingly users, designed with functionalities inspired by LinkedIn profiles.
 
-## Available Scripts
+## Task Overview
 
-In the project directory, you can run:
+The goal was to develop a web page that functions as a profile page for developers on the Hackingly platform. The profile page includes the following features:
 
-### `npm start`
+- **User Information**:
+  - Name
+  - Profile picture (upload feature included)
+  - Banner image (upload feature included)
+  - Email address (display only)
+  
+- **Social Links**:
+  - Links to GitHub and LinkedIn profiles (with optional support for other social media platforms)
+  
+- **Experience**:
+  - List work experience (company, designation, duration)
+  - Showcase projects (brief description, links if applicable)
+  
+- **Achievements**:
+  - Display hackathons participated in (name, year, achievements)
+  - Showcase certifications earned (name, issuing authority)
+  
+- **Ranking**:
+  - Implemented a basic ranking system (e.g., points based on contributions, hackathon wins)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technical Specifications
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: Built with React.js
+- **Backend**: Mock API used for demonstration
+- **Styling**: CSS modules for component-level styling
+- **Features**:
+  - Responsive design for various screen sizes
+  - User experience and design principles applied for a clean UI
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get started with this project, follow these instructions:
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm installed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
 
-### `npm run eject`
+    ```bash
+    git clone https://github.com/yourusername/hackingly-profile-page.git
+    cd hackingly-profile-page
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install dependencies**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Run the development server**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm start
+    ```
 
-## Learn More
+    Open [http://localhost:3000](http://localhost:3000) to view the application in your browser. The page will reload when you make changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Scripts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Start Development Server**:
 
-### Code Splitting
+    ```bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Run Tests**:
 
-### Analyzing the Bundle Size
+    ```bash
+    npm test
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Build for Production**:
 
-### Making a Progressive Web App
+    ```bash
+    npm run build
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    The build is optimized for production and minified. The files are located in the `build` folder.
 
-### Advanced Configuration
+- **Eject Configuration**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    ```bash
+    npm run eject
+    ```
 
-### Deployment
+    Note: This is a one-way operation to customize build configurations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Features Implemented
 
-### `npm run build` fails to minify
+- **Profile Information**: Users can upload a profile picture and banner image. Email is displayed but not editable.
+- **Social Links**: Fields to add GitHub and LinkedIn profiles.
+- **Experience Section**: Manage work experience and projects with options to add, edit, and delete.
+- **Achievements Section**: Manage hackathons and certifications with options to add, edit, and delete.
+- **Ranking System**: Basic ranking based on predefined criteria.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Improvements
+
+- **Search Functionality**: Implement a search feature to find users based on skills or interests.
+- **Social Media Integration**: Add sharing buttons for projects and achievements.
+- **Recommendations**: Include a section for endorsements from other users.
+
+## Design Choices and Technical Approach
+
+- **Design**: Focused on a clean, user-friendly interface with responsive design.
+- **Technical Approach**: Used React.js for building components, state management with hooks, and CSS modules for styling.
+
+## Additional Resources
+
+- [React Documentation](https://reactjs.org/)
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
