@@ -1,6 +1,10 @@
-# Hackingly Profile Page
+# Hackingly Profile Page [Live Link](https://hackingly-profile.netlify.app/)
 
 Welcome to the second round of the full-stack developer interview for Hackingly! This project showcases a profile page for Hackingly users, designed with functionalities inspired by LinkedIn profiles.
+
+## Live Demo
+
+Check out the live version of the profile page here: [Hackingly Profile Page](https://hackingly-profile.netlify.app/)
 
 ## Task Overview
 
