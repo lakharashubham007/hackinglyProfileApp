@@ -1,0 +1,52 @@
+/* components/Footer.module.css */
+.footer {
+    background-color: #6C63FF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .links {
+    margin-bottom: 20px;
+  }
+  
+  .links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .socialMedia {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+  }
+  
+  .contact p {
+    margin: 5px 0;
+  }
+  
+  .contact a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  

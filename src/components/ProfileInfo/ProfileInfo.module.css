@@ -1,0 +1,169 @@
+   .profileInfo {
+    position: relative;
+    /* display: flex;
+    align-items: center; */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profileImageContainer {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .editImageButton {
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .editImageButton img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .fileInput {
+    display: none;
+  }
+  
+  .editButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .editButton img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .profileDetails input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .profileDetails button {
+    padding: 5px 10px;
+  }
+  
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  z-index: 1001;
+    border-radius: 8px;
+    width: 500px;
+    height: 70%;
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  .modalContent {
+    height: 100%;
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding: 20px;
+  }
+  
+
+
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .submitButton:hover {
+    background-color: #5a52cc;
+  }
+
+  .socialLinks {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .socialIcon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .socialIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

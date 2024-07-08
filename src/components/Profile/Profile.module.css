@@ -1,0 +1,68 @@
+.profile {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+  
+  .banner {
+   
+
+
+    height: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: var(--border-color);
+    margin: 20px;
+    /* padding: 20px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-pic {
+    margin-right: 20px;
+  }
+  
+  .profile-pic-img {
+    border-radius: 50%;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  .info h1 {
+    margin: 0;
+  }
+  
+  .info p {
+    margin: 5px 0;
+  }
+  
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-media a {
+    margin: 5px 0;
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .about-me {
+    padding: 20px;
+  }
+  
+  .about-me h2 {
+    margin: 0;
+  }
+  

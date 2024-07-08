@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    background-color: #6C63FF;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  

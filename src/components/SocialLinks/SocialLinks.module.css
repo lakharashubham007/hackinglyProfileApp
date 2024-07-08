@@ -1,0 +1,25 @@
+/* components/SocialLinks/SocialLinks.module.css */
+.socialLinks {
+    text-align: center;
+    background-color: var(--background-color);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .socialLinks a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .socialLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 600px) {
+    .socialLinks {
+      padding: 15px;
+    }
+  }
+  
